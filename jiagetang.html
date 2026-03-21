@@ -102,28 +102,14 @@
             margin-bottom: 8px;
         }
 
-        /* 新增：产品标签区域（红框位置） */
+        /* 产品标签区域（去掉边框和顶部黄线） */
         .product-label {
             max-width: 800px;
             margin: 20px auto 0;
             padding: 30px;
             background-color: #1a1a1a;
-            border: 2px solid #d4af37; /* 金色边框，匹配标签风格 */
-            border-radius: 4px;
+            /* 去掉了金色边框和顶部装饰线 */
             font-family: "Microsoft Yahei", serif;
-        }
-        /* 标签装饰边框（模拟标签顶部花纹） */
-        .label-border {
-            height: 30px;
-            background: linear-gradient(90deg, 
-                #d4af37 0%, #d4af37 20%, transparent 20%, transparent 30%,
-                #d4af37 30%, #d4af37 40%, transparent 40%, transparent 60%,
-                #d4af37 60%, #d4af37 70%, transparent 70%, transparent 80%,
-                #d4af37 80%, #d4af37 100%);
-            background-size: 100% 10px;
-            background-repeat: no-repeat;
-            background-position: center;
-            margin-bottom: 25px;
         }
         /* 标签内容：两列布局，金色文字 */
         .label-content {
@@ -194,9 +180,8 @@
             </div>
         </div>
 
-        <!-- 新增：产品标签信息（红框位置） -->
+        <!-- 产品标签信息（已去掉黄色边框和顶部粗黄线） -->
         <div class="product-label">
-            <div class="label-border"></div>
             <div class="label-content">
                 <div class="label-item">
                     <strong>[食品名称]</strong> 双南唐

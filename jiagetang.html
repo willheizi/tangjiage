@@ -44,14 +44,14 @@
             border: none;
         }
 
-        /* 新增：酒图区域样式 */
+        /* 调整：移除阴影效果，保留其他样式 */
         .wine-image {
             width: 100%;
             max-width: 400px; /* 限制最大宽度，避免过大 */
             margin: 20px auto; /* 上下间距+水平居中 */
             display: block;
             border-radius: 4px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* 轻微阴影，提升质感 */
+            /* 已删除 box-shadow 阴影属性 */
         }
 
         /* 文字信息区域：还原效果图排版 */
@@ -184,7 +184,7 @@
             ></iframe>
         </div>
 
-        <!-- 新增：酒的图片（视频与价格之间） -->
+        <!-- 新增：酒的图片（视频与价格之间，无阴影） -->
         <img 
             class="wine-image"
             src="https://raw.githubusercontent.com/willheizi/tangjiage/925cbfbea17aa03b09bf0fc88b4608029aa07b52/tangBG.png"
